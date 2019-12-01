@@ -16,4 +16,8 @@ spring:
       validation-query-timeout: 30000
 mybatis:
   type-aliases-package: com.ym.demo.entity
-  mapper-locations: mybatis/mapper/*.xml
+  #config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mabatis/mapper/*.xml
+server:
+  port: 8080
+
